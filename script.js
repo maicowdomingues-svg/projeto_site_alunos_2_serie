@@ -1,6 +1,7 @@
 const botaoMenu = document.getElementById("botao-menu");
 const listaMenu = document.getElementById("lista-menu");
 const botaoMensagem = document.getElementById("botao-mensagem");
+const mensagem = document.getElementById("mensagem");
 
 botaoMenu.addEventListener("click", function () {
   listaMenu.classList.toggle("ativo");
@@ -22,7 +23,6 @@ const fotos = document.querySelectorAll(".foto");
 const modalImagem = document.getElementById("modal-imagem");
 const imagemAmpliada = document.getElementById("imagem-ampliada");
 const fecharModal = document.getElementById("fechar-modal");
-const fotos = document.querySelectorAll(".foto");
 
 fotos.forEach(function (foto) {
   foto.addEventListener("click", function () {
