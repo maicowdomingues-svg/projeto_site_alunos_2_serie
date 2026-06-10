@@ -1,7 +1,6 @@
 const botaoMenu = document.getElementById("botao-menu");
 const listaMenu = document.getElementById("lista-menu");
 const botaoMensagem = document.getElementById("botao-mensagem");
-const mensagem = document.getElementById("mensagem");
 
 botaoMenu.addEventListener("click", function () {
   listaMenu.classList.toggle("ativo");
